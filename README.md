@@ -6,6 +6,14 @@
 
 A C++ implementation of Dijkstra's algorithm for finding least-cost routes across a grayscale elevation map.
 
+## Raster preview
+
+| Elevation input | Direction output |
+| --- | --- |
+| ![Grayscale elevation raster](docs/images/elevation-input.png) | ![Direction raster produced by the algorithm](docs/images/direction-map.png) |
+
+The PNG previews were converted losslessly from the project's 250×200 raw raster files for browser viewing.
+
 ## Problem model
 
 ```mermaid
@@ -49,7 +57,7 @@ C++, graph modeling, Dijkstra's algorithm, priority queues, binary file I/O, and
 
 ## Verification status
 
-The source and Visual Studio project are included, but a local C++ toolchain was unavailable during the latest portfolio packaging pass. Build instructions are provided so the implementation can be verified with Visual Studio 2022 or a C++17 compiler.
+The source compiled successfully with the Visual Studio 2022 C++17 toolchain during the portfolio pass. A boundary-condition failure was also reproduced at the lower map edge; it is documented honestly rather than presenting the current implementation as production-ready.
 
 ## About the author
 
