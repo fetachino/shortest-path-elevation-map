@@ -2,7 +2,7 @@
 
 [![C++](https://img.shields.io/badge/C++-17-00599C?logo=cplusplus&logoColor=white)](https://isocpp.org/)
 [![Algorithm](https://img.shields.io/badge/Algorithm-Dijkstra-6C5CE7)](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
-[![Data](https://img.shields.io/badge/Input-250×200_RAW_raster-2A9D8F)](#build)
+[![Data](https://img.shields.io/badge/Input-250x200_RAW_raster-2A9D8F)](#build)
 
 A C++ implementation of Dijkstra's algorithm for finding least-cost routes across a grayscale elevation map.
 
@@ -11,6 +11,10 @@ A C++ implementation of Dijkstra's algorithm for finding least-cost routes acros
 | Elevation input | Direction output |
 | --- | --- |
 | ![Grayscale elevation raster](docs/images/elevation-input.png) | ![Direction raster produced by the algorithm](docs/images/direction-map.png) |
+
+![Shortest-path raster produced from the elevation map](docs/images/shortest-path-output.png)
+
+![Shortest-path raster produced from the elevation map](docs/images/shortest-path-output.png)
 
 The PNG previews were converted losslessly from the project's 250×200 raw raster files for browser viewing.
 
@@ -47,7 +51,7 @@ Open `ShortestPathElevationMap.vcxproj` in Visual Studio 2022, or compile direct
 g++ -std=c++17 -O2 main.cpp -o elevation-path
 ```
 
-Place a 250×200, 8-bit grayscale elevation file named `map1.raw` in the working directory, then run the executable. It writes `direction.raw` and `path.raw`.
+Place a 250x200, 8-bit grayscale elevation file named `map1.raw` in the working directory, then run the executable. It writes `direction.raw` and `path.raw`.
 
 The original course input dataset is not redistributed.
 
