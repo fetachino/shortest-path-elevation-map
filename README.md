@@ -14,9 +14,7 @@ A C++ implementation of Dijkstra's algorithm for finding least-cost routes acros
 
 ![Shortest-path raster produced from the elevation map](docs/images/shortest-path-output.png)
 
-![Shortest-path raster produced from the elevation map](docs/images/shortest-path-output.png)
-
-The PNG previews were converted losslessly from the project's 250×200 raw raster files for browser viewing.
+The PNG previews were converted losslessly from the project's 250x200 raw raster files for browser viewing.
 
 ## Problem model
 
